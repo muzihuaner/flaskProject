@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登陆</title>
+<link rel="stylesheet" href="/static/Style2.css">
+</head>
+<body>
+<h1>用户登陆</h1>
+
+<form action="/login" method="post">
+    <div class="form-group">
+        <label for="username">用户名：</label>
+        <div><input type="text" class="form-control" name="username"></div>
+        <label for="username">密码：</label>
+        <div><input type="password" class="form-control" name="password"></div>
+
+        <input type="submit" value="登陆">
+         <a href="/register"><input type="button" value="注册"></a>
+    </div>
+</form>
+
+</body>
+</html>
